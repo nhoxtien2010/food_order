@@ -6,6 +6,7 @@ en:
   home:
     index:
       header: FOOD ORDER
+      welcome: Welcome
     menu:
       option: Option
       login: Login  
@@ -57,6 +58,7 @@ en:
     create: Create
     update: Update
     editus: Edit User
+    qulogin: List User(Quick login)
   oderdt:
     user: User
     food: Food

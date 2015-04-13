@@ -54,7 +54,7 @@
                   = link_to "Manager"
               - else
                 %li
-                  = link_to "Welcome #{current_user.name}"
+                  = link_to=t('home.index.welcome')+ '#{current_user.name}'
 
 
        

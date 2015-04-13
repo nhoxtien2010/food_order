@@ -6,6 +6,7 @@ vi:
   home:
     index:
       header: GỌI MÓN ĂN
+      welcome: Xin chào
     menu:
       option: Chức năng
       login: Đăng nhập  
@@ -71,6 +72,7 @@ vi:
     create: Tạo
     update: Cập nhật
     editus: Sửa thông tin người dùng.
+    qulogin: Danh sách người dùng (Đăng nhập nhanh)
   oderdt:
     user: Người đặt
     food: Món ăn
