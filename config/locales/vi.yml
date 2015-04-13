@@ -1,0 +1,92 @@
+vi:
+  user:
+    lsuser: Danh sách người dùng
+    new: Tạo mới người dùng
+    resetpas: Khôi phục lại mật khẩu
+  home:
+    index:
+      header: GỌI MÓN ĂN
+    menu:
+      option: Chức năng
+      login: Đăng nhập  
+      chaninfo: Thay đổi thông tin cá nhân
+      chanpas: Thay đổi mật khẩu
+      logout: Đăng xuất
+      home: Trang chủ
+  devise:
+    login: Đăng nhập
+    pass: Mật khẩu
+    passcofirm: Xác nhận mật khẩu
+    remember: Nhớ tài khoản của tôi
+    name: Họ tên
+    gender: Giới tính
+    singup: Đăng ký
+    fgpass: Quên mật khẩu?
+    sndpassinstruc: Gửi hướng dẫn khôi phục mật khẩu
+    male: Nam
+    female: Nữ
+    charmi: ký tự ít nhất
+    didntrcconfirm: Bạn chưa nhận được hướng dẫn xác thực?
+    didntrcunlock: Bạn chưa nhận được hướng dẫn mở khóa? 
+    signinwith: Đăng nhập với
+    dnthaveacount: Bạn chưa có tài khoản??
+    confirm: Hiện tại đang chờ xác nhận cho
+    crpass: Mật khẩu hiện tại
+    permission: Quyền
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password:
+              blank: Mật khẩu không được để trống!
+              too_short: Mật khẩu quá ngắn (ít nhất 8 ký tự)!
+            email:
+              blank: Email không được để trống!
+              taken: Email này đã tồn tại!!
+              invalid: Địa chỉ email không hợp lệ!
+            password_confirmation:
+              confirmation: Mật khẩu và mật khẩu xác nhận không khớp
+  food:
+    new:  Thêm món  ăn  
+    cost: Gía
+    store: Cửa hàng
+    create: Tạo món ăn
+    lst: Danh sách các món ăn
+  store:
+    lstore: Danh sách cửa hàng
+    new: Thêm cửa hàng
+    create: Tạo cửa hàng
+    edit: Sửa thông tin cửa hàng
+    store: Cửa hàng
+  menu:
+    back: Quay lại
+    show: Xem
+    name: Tên
+    edit: Sửa
+    destroy: Xóa
+    address: Địa chỉ
+    contact: Liên lạc
+    confirm: Bạn có chắc không??
+    create: Tạo
+    update: Cập nhật
+    editus: Sửa thông tin người dùng.
+  oderdt:
+    user: Người đặt
+    food: Món ăn
+    number: Số lượng
+    total: Tổng tiền
+    orderss: Đặt món ăn
+    edit: Sửa chi tiết đặt món ăn
+    lst: Danh sách chi tiết đặt món ăn
+    new: Tạo mới chi tiết đặt món ăn
+  orderss:
+    timec: Thời gian tạo
+    timel: Thời gian khóa
+    order: Người mời
+    edit: Chỉnh sửa đặt món ăn
+    list: Danh sách đặt món ăn
+    new: Tạo mới đặt món ăn
+  orderstore:
+    edit: Chỉnh sửa Đặt món-Cửa hàng
+    new: Tạo mới Đặt món-Cửa hàng

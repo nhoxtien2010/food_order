@@ -1,0 +1,33 @@
+.container
+  #loginbox.mainbox.col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2{:style => "margin-top:50px;"}
+    .panel.panel-info
+      .panel-heading
+        .panel-title.text-center=t('devise.login')        
+      .panel-body{:style => "padding-top:30px"}        
+        #login-alert.alert.alert-danger.col-sm-12{:style => "display:none"}
+        %form#new_user.new_user.form-horizontal{"accept-charset" => "UTF-8", :action => "/login", :method => "post"}
+          %input{:name => "utf8", :type => "hidden", :value => "✓"}/
+          %input{:name => "authenticity_token", :type => "hidden", :value => "8Ks8RcMTTshrbuWwW+l6ki9xIhraMokvPwzv7XcIMj5FIVyDhHpau/LCFUzl8/XSskB2Ml8YLraXMJCf9Whj7Q=="}
+          .input-group{:style => "margin-bottom: 25px"}
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-user
+            %input#user_email.form-control{:name => "user[email]", :placeholder => "User email", :type => "text", :value => "", :autofocus=> "autofocus"}/
+          .input-group{:style => "margin-bottom: 25px"}
+            %span.input-group-addon
+              %i.glyphicon.glyphicon-lock
+            %input#user_password.form-control{:name => "user[password]", :placeholder => "password", :type => "password"}/
+          .input-group
+            .checkbox
+              %label
+                %input#user_remember_me{:name => "user[remember_me]", :type => "checkbox", :value => "1"}=t('devise.remember')
+                
+          .form-group{:style => "margin-top:10px"}
+            / Button
+            .col-sm-12.controls
+              .actions
+                %input#btn-login.btn.btn-success{:type=>"submit", :name=>"commit", :value => I18n.t('devise.login')}               
+          .form-group
+            .col-md-12.control
+              %div{:style => "border-top: 1px solid#888; padding-top:15px; font-size:85%"}               
+                = render "devise/shared/links"
+  

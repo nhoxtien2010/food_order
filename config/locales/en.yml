@@ -1,0 +1,90 @@
+en:
+  user:
+    lsuser: List User
+    new: Create new user
+    resetpas: Reset password
+  home:
+    index:
+      header: FOOD ORDER
+    menu:
+      option: Option
+      login: Login  
+      chaninfo: Change Profile Infomation
+      chanpas: Change Password
+      logout: Logout
+      home: Home           
+  devise:
+    login: Log in
+    pass: Password
+    passcofirm: Password confirmation
+    remember: Remember me
+    name: Name
+    gender: Gender
+    singup: Sign up
+    fgpass: Forgot your password?
+    sndpassinstruc: Send me password reset instruction
+    male: Male
+    female: Female
+    charmi: characters minimum
+    didntrcconfirm: Didn't receive confirmation instructions?
+    didntrcunlock: Didn't receive unlock instructions?
+    signinwith: Sign in with
+    crpass: Current password
+    dnthaveacount: Don't have an account!
+    confirm: Currently waiting confirmation for
+    permission: Permission
+  food:
+    new: New Food    
+    cost: Cost
+    store: Store
+    create: Create Food
+    lst: Listing Foods
+    store: Store
+  store:
+    lstore: Listing Stores
+    new: New store
+    create: Create Store
+    edit: Editing Store
+  menu:
+    back: Back
+    show: Show
+    name: Name
+    edit: Edit
+    destroy: Destroy
+    address: Address
+    contact: Contact
+    confirm: Are you sure??
+    create: Create
+    update: Update
+    editus: Edit User
+  oderdt:
+    user: User
+    food: Food
+    number: Number
+    total: Total
+    orderss: Order Session
+    edit: Editing order detail
+    lst: Listing Order Details
+    new: New Order detail
+  orderss:
+    timec: Time create
+    timel: Time lock
+    order: The order
+    edit: Editing order session
+    list: Listing order session
+    new: New order session
+  orderstore:
+    edit: Editing Order-Store
+    new: New Order-Store
+  store:
+    lstore: Listing User(Admin page)
+    new: New store
+    create: Create Store
+    edit: Editing Store
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            password_confirmation:
+              confirmation: Password confirmation doesn't match Password
